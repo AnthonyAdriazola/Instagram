@@ -11,4 +11,5 @@ class Seguir:
             print("Usuario seguido exitosamente")
         except Exception as e:
             print(f"Error al seguir al usuario {id_usuario}:", e)
-    
+    #haber ejecutalo 
+    #Igual aun hay algun bugsito que otro pero ya casi lo acabo, solo faltaria terminar el codigo en si, ahi lo ejecuto.

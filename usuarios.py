@@ -91,4 +91,5 @@ class Usuario:
                 print(f"No se encontró un perfil con ID {id_usuario}.")
         except Exception as e:
             print(f"Error al eliminar el perfil con ID {id_usuario}:", e)
-   
+
+
