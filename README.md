@@ -61,13 +61,13 @@ Importa el archivo instagram.sql dentro de la base de datos creada para crear la
    ```bash
    python main.py
 
-Contribuciones
+## Contribuciones
 ¡Las contribuciones son bienvenidas! Si tienes sugerencias, errores que reportar o mejoras, no dudes en abrir un Issue o enviar un Pull Request.
 
-##**Autores**
+## **Autores**
 Desarrollado por:
-**Anthony Adriazola**
-**Yessica Valero**
-**Edwin Cala**
-**Alexis Lopez**
+- **Anthony Adriazola**
+- **Yessica Valero**
+- **Edwin Cala**
+- **Alexis Lopez**
 Proyecto para aprender sobre programación en Python y manejo de bases de datos con MySQL.
