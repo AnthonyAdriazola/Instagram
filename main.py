@@ -119,7 +119,11 @@ class Instagram:
             opcion = input("Elige una opción: ")
 
             if opcion == "1":
-                self.usuario_manager.editar_perfil()
+                if self.usuario_manager.editar_perfil(self.usuario_actual["id_usuario"]):
+                    print("Perfil actualizado. Regresando al menú principal...")
+                    self.menu_principal()
+                    break
+                
             elif opcion == "2":
                 self.menu_gestionar_publicaciones()
             elif opcion == "3":
@@ -238,6 +242,7 @@ class Instagram:
                 self.registrar_usuario()
             elif opcion == "2":
                 self.iniciar_sesion()
+                
             elif opcion == "3":
                 print("¡Hasta luego!")
                 break

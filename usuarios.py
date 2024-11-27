@@ -200,6 +200,8 @@ class Usuario:
                 cursor.execute(query, valores)
                 self.conexion.commit()
                 print("Perfil actualizado exitosamente.")
+                return True
+            
             else:
                 print("Cambios descartados.")
         except Exception as e:
